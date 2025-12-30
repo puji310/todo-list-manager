@@ -1,8 +1,6 @@
-tasks = []
-
-def main():
-    print("To-Do List Manager")
-
-if __name__ == "__main__":
-    main()
+def view_tasks():
+    if not tasks:
+        print("No tasks available")
+    for i, task in enumerate(tasks, 1):
+        print(f"{i}. {task}")
 
