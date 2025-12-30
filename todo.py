@@ -1,8 +1,4 @@
-tasks = []
-
-def main():
-    print("To-Do List Manager")
-
-if __name__ == "__main__":
-    main()
+def add_task(task):
+    tasks.append(task)
+    print("Task added successfully")
 
